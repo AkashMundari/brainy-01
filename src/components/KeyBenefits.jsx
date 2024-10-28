@@ -57,17 +57,6 @@ const KeyBenefits = () => {
     },
   ];
 
-  const questions = [
-    "Is your child struggling with focus and concentration?",
-    "Does math feel like a daunting subject to them?",
-    "Are you worried about how much time they spend in front of screens?",
-    "Do you want your child to develop critical problem-solving and analytical thinking skills?",
-    "Is building confidence and academic success important to you?",
-    "Do you want your child to excel in both school and future competitive environments?",
-    "Are you looking for a fun, engaging way to enhance your child's brain development?",
-    "Does your child need help managing time and multitasking effectively?",
-  ];
-
   return (
     <div
       className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 poppins-light "
@@ -83,15 +72,100 @@ const KeyBenefits = () => {
           </h2>
 
           <div className="space-y-4">
-            {questions.map((question, index) => (
-              <div key={index} className="flex items-start gap-3">
-                <input
-                  type="checkbox"
-                  className="w-5 h-5 mt-0.5 flex-shrink-0 rounded  accent-[#024978] "
-                ></input>
-                <span className="text-base">{question}</span>
-              </div>
-            ))}
+            <div className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                className="w-5 h-5 mt-0.5 flex-shrink-0 rounded  accent-[#024978] "
+              ></input>
+              <span className="text-base">
+                Is your child <span className="font-bold">struggling</span> with
+                <span className="font-bold"> focus</span> and{" "}
+                <span className="font-bold">concentration </span>?
+              </span>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                className="w-5 h-5 mt-0.5 flex-shrink-0 rounded  accent-[#024978] "
+              ></input>
+              <span className="text-base">
+                Does math feel like a{" "}
+                <span className="font-bold">daunting </span>subject to them?
+              </span>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                className="w-5 h-5 mt-0.5 flex-shrink-0 rounded  accent-[#024978] "
+              ></input>
+              <span className="text-base">
+                Are you <span className="font-bold">worried</span> about how
+                much time they spend in front of
+                <span className="font-bold"> screens</span>?
+              </span>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                className="w-5 h-5 mt-0.5 flex-shrink-0 rounded  accent-[#024978] "
+              ></input>
+              <span className="text-base">
+                Do you want your child to develop critical{" "}
+                <span className="font-bold">problem-solving</span> and
+                <span className="font-bold"> analytical</span> thinking skills?
+              </span>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                className="w-5 h-5 mt-0.5 flex-shrink-0 rounded  accent-[#024978] "
+              ></input>
+              <span className="text-base">
+                Is building <span className="font-bold"> confidence</span> and
+                academic <span className="font-bold"> success</span> important
+                to you?
+              </span>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                className="w-5 h-5 mt-0.5 flex-shrink-0 rounded  accent-[#024978] "
+              ></input>
+              <span className="text-base">
+                Do you want your child to{" "}
+                <span className="font-bold"> excel</span> in both school and
+                future
+                <span className="font-bold"> competitive environments </span>?
+              </span>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                className="w-5 h-5 mt-0.5 flex-shrink-0 rounded  accent-[#024978] "
+              ></input>
+              <span className="text-base">
+                Are you looking for a fun, engaging way to enhance your child's
+                <span className="font-bold"> brain development </span>?
+              </span>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                className="w-5 h-5 mt-0.5 flex-shrink-0 rounded  accent-[#024978] "
+              ></input>
+              <span className="text-base">
+                Does your child need help managing time and{" "}
+                <span className="font-bold"> multitasking </span>
+                effectively?
+              </span>
+            </div>
           </div>
 
           <div className="mt-8 space-y-4">
