@@ -29,16 +29,22 @@ const WhyRegister = () => {
             <div className="flex justify-center">
               <ul className="list-disc inline-block text-left text-gray-800 text-lg space-y-2 max-w-2xl">
                 <li>
-                  Limited spots for the free webinar—register before they fill up
+                  Limited spots for the{" "}
+                  <span className="font-bold">free webinar</span>—register
+                  before they fill up
                 </li>
                 <li>
-                 Exclusive insights into brain training for enhanced learning
+                  Exclusive insights into brain training for{" "}
+                  <span className="font-bold">enhanced learning</span>
                 </li>
                 <li>
-                  Live demonstration of mental math and brain skills in action
+                  <span className="font-bold">Live demonstration</span> of
+                  mental math and brain skills in action
                 </li>
                 <li>
-                  Simple techniques to boost academic and personal success
+                  Simple techniques to boost{" "}
+                  <span className="font-bold">academic</span> and{" "}
+                  <span className="font-bold">personal success</span>
                 </li>
               </ul>
             </div>
