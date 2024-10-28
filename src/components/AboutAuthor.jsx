@@ -32,11 +32,11 @@ const AboutAuthor = () => {
                   </li>
                   <li>
                     Expert educators specializing in <span className="font-bold"> abacus training</span> and
-                   <span className="font-bold">cognitive skills</span>
+                   <span className="font-bold"> cognitive skills</span>
                   </li>
                   <li>
                     Proven track record in <span className="font-bold">enhancing</span> children's learning and
-                     <span className="font-bold">academic performance</span>
+                     <span className="font-bold"> academic performance</span>
                   </li>
                   <li>
                     Focused on innovative,  <span className="font-bold">fun</span>, and  <span className="font-bold">engaging</span> teaching methods
