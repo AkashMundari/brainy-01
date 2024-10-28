@@ -27,26 +27,34 @@ const AboutAuthor = () => {
               <div className="mt-5 md:mt-16">
                 <ul className="list-disc list-outside pl-5 sm:pl-6 text-gray-800 text-xl space-y-3">
                   <li>
-                    <span className="font-bold">20+</span> years of experience in brain development
-                    and mental arithmetic
+                    <span className="font-bold">20+</span> years of experience
+                    in brain development and mental arithmetic
                   </li>
                   <li>
-                    Expert educators specializing in <span className="font-bold"> abacus training</span> and
-                   <span className="font-bold"> cognitive skills</span>
+                    Expert educators specializing in{" "}
+                    <span className="font-bold"> abacus training</span> and
+                    <span className="font-bold"> cognitive skills</span>
                   </li>
                   <li>
-                    Proven track record in <span className="font-bold">enhancing</span> children's learning and
-                     <span className="font-bold"> academic performance</span>
+                    Proven track record in{" "}
+                    <span className="font-bold">enhancing</span> children's
+                    learning and
+                    <span className="font-bold"> academic performance</span>
                   </li>
                   <li>
-                    Focused on innovative,  <span className="font-bold">fun</span>, and  <span className="font-bold">engaging</span> teaching methods
+                    Focused on innovative,{" "}
+                    <span className="font-bold">fun</span>, and{" "}
+                    <span className="font-bold">engaging</span> teaching methods
                   </li>
                   <li>
-                    Hosts vary by center but all bring  <span className="font-bold">extensive knowledge</span> and
+                    Hosts vary by center but all bring{" "}
+                    <span className="font-bold">extensive knowledge</span> and
                     dedication
                   </li>
                   <li>
-                    Committed to  <span className="font-bold">helping children</span> unlock their  <span className="font-bold">full potential</span>
+                    Committed to{" "}
+                    <span className="font-bold">helping children</span> unlock
+                    their <span className="font-bold">full potential</span>
                   </li>
                 </ul>
               </div>
